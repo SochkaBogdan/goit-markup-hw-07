@@ -310,6 +310,7 @@ img {
 }
 
 .modal__check-form {
+  cursor: pointer;
   color: var(--main-text-color);
   gap: 7px;
   -webkit-user-select: none;
@@ -366,6 +367,7 @@ img {
 }
 
 .modal__button-submit {
+  cursor: pointer;
   width: 200px;
   height: 50px;
   margin: auto;
