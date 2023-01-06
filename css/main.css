@@ -982,6 +982,7 @@ img {
   gap: 8px;
 }
 .pf-btn__button {
+  cursor: pointer;
   padding: 6px 25px;
   font-family: "Roboto";
   font-weight: 500;
@@ -1024,6 +1025,7 @@ img {
   padding: 0;
 }
 .offer-card__box {
+  cursor: pointer;
   width: 370px;
   border: 1px solid #eeeeee;
 }
