@@ -34,6 +34,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    fill: var(--main-text-color);
     transition: var(--main-anim);
     -webkit-transition: var(--main-anim);
     &:hover,
@@ -45,13 +46,12 @@
   &___icon {
     margin-right: 10px;
     transition: var(--main-anim);
-    color: var(--main-text-color);
     &:hover {
       color: var(--accent-color);
     }
   }
 }
-// .header__contact-list .header__contacts:hover .header__icon,
-// .header__contact-list .header__contacts:focus .header__icon {
-//   fill: var(--accent-color);
-// }
+.header__contact-list .header__contacts:hover .header__icon,
+.header__contact-list .header__contacts:focus .header__icon {
+  fill: var(--accent-color);
+}

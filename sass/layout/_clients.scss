@@ -2,105 +2,42 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.clients .tittle {
-  text-align: center;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-}
-
-.client-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  transition: var(--main-anim);
-}
-
-.client-link:hover .clients-icon,
-.client-link:focus .clients-icon {
-  fill: #2196f3;
-  border-radius: 4px;
-  transition: var(--main-anim);
-  -webkit-transition: var(--main-anim);
-}
-
-
 .clients-list {
   display: flex;
   gap: 30px;
 }
-.client-link:hover,
-.client-link:focus {
-  border: 1px solid #2196f3;
-}
-
-.clients-icon {
-  fill: #afb1b8;
-  transition: var(--main-anim);
-}
-
-// .clients-card {
-//   // .clients__link
-
-//   &__link {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 170px;
-//     height: 92px;
-//     border: 1px solid #afb1b8;
-//     border-radius: 4px;
-//     transition: var(--main-anim);
-//     &:hover {
-//       border: 1px solid #2196f3;
-//     }
-
-//     // .clients__icon
-
-//     &__icon {
-//       fill: #afb1b8;
-//       transition: var(--main-anim);
-//       }
-//     }
-//   }
-
 .clients-list {
+  // .clients-list__card
 
-		// .clients-list__card
-
-		&__card {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  transition: var(--main-anim);
-  &:hover {
-    border: 1px solid #2196f3;
+  &__card {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: var(--main-anim);
+    &:hover {
+      border: 1px solid #2196f3;
+    }
   }
-		}
 
-		// .clients-list__link
+  // .clients-list__link
 
-		&__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
-		}
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    transition: var(--main-anim);
+  }
 
-		// .clients-list__icon
+  // .clients-list__icon
 
-		&__icon {
-  fill: #afb1b8;
-  transition: var(--main-anim);
-		}
+  &__icon {
+    fill: #afb1b8;
+    transition: var(--main-anim);
+  }
 }
-.list {
+.clients-list__link:hover .clients-list__icon,
+.clients-list__link:focus .clients-list__icon {
+  fill: #2196f3;
+  border-radius: 4px;
 }

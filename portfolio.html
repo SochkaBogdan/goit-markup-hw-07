@@ -23,7 +23,7 @@
   <header class="header ">
     <div class="header__content container">
       <div class="header__box">
-        <a href="./index.html" class="logo logo__header"><span class="logo__item">Web</span>Studio</a>
+        <a href="./index.html" class="logo logo__header--position"><span class="logo__item">Web</span>Studio</a>
         <nav>
           <ul class="nav">
             <li class="nav__item ">
@@ -70,10 +70,10 @@
           </li>
         </ul>
         <h1 class="tittle">Portfolio</h1>
-        <ul class="portfolio-list list">
+        <ul class="offer-card list">
 
-          <li class="pf-cards">
-            <div class="card-tumd">
+          <li class="offer-card__box">
+            <div class="offer-card__img">
               <img src="./images/portfolio/1.jpg" alt="ноутбук" width="370" />
               <div class="overlay">
                 <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -196,48 +196,47 @@
   </main>
   <footer class="footer">
     <div class="footer-nav container">
-
-      <address class="footer-address">
-        <a href="./index.html" class="logo"><span class="logo-item">Web</span>Studio</a>
-        <p class="text">м. Київ, пр-т Лесі Українки, 26</p>
-        <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+      <address class="footer-contacts">
+        <a href="./index.html" class="logo logo--footer"><span class="logo__item">Web</span>Studio</a>
+        <p class="footer-contacts__address">м. Київ, пр-т Лесі Українки, 26</p>
+        <a href="mailto:info@devstudio.com" class="footer-contacts__contact">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="footer-contacts__contact">+38 096 111 11 11</a>
       </address>
-      <div class="footer-social">
-        <h2 class="tittle">приєднуйтесь</h2>
-        <ul class="footer-list list">
+      <div class="footer-social footer-social--position">
+        <h2 class="footer-tittle footer-tittle--position">приєднуйтесь</h2>
+        <ul class="social-list list">
           <li>
-            <a class="footer-link" href="https://www.instagram.com/" aria-label="Instagram" target="_blank"
-              rel="noopener norefferer">
-
-              <svg class="footer-icons" width="20" height="20">
+            <a class="social-list__link social-list__link--footer" href="https://www.instagram.com/"
+              aria-label="Instagram" target="_blank" rel="noopener norefferer">
+  
+              <svg class="social-list__icons social-list__icons--footer" width="20" height="20">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a class="footer-link" href="https://twitter.com/" aria-label="twitter" target="_blank"
-              rel="noopener norefferer">
-
-              <svg class="footer-icons" width="20" height="20">
+            <a class="social-list__link social-list__link--footer" href="https://twitter.com/" aria-label="twitter"
+              target="_blank" rel="noopener norefferer">
+  
+              <svg class="social-list__icons social-list__icons--footer" width="20" height="20">
                 <use href="./images/icons.svg#icon-twitter-1"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a class="footer-link" href="https://facebook.com/" aria-label="facebook" target="_blank"
-              rel="noopener norefferer">
-
-              <svg class="footer-icons" width="20" height="20">
+            <a class="social-list__link social-list__link--footer" href="https://facebook.com/" aria-label="facebook"
+              target="_blank" rel="noopener norefferer">
+  
+              <svg class="social-list__icons social-list__icons--footer" width="20" height="20">
                 <use href="./images/icons.svg#icon-facebook-1"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a class="footer-link" href="https://www.linkedin.com/" aria-label="linkedin" target="_blank"
-              rel="noopener norefferer">
-
-              <svg class="footer-icons" width="20" height="20">
+            <a class="social-list__link social-list__link--footer" href="https://www.linkedin.com/" aria-label="linkedin"
+              target="_blank" rel="noopener norefferer">
+  
+              <svg class="social-list__icons social-list__icons--footer" width="20" height="20">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
               </svg>
             </a>
@@ -245,13 +244,13 @@
         </ul>
       </div>
       <form>
-        <h2 class="footer-title">Підпишіться на розсилку</h2>
+        <h2 class="footer-tittle footer-tittle--position">Підпишіться на розсилку</h2>
         <label for="mailfooter"></label>
-        <div class="group-mailing">
-          <input class="footer-mailing" type="email" name="mailfooter" id="mailfooter" placeholder="E-mail">
-          <button class="button-mailing button" type="submit">
-            <span class="span-footer">Підписатися</span>
-            <svg class="icon-footer" width="24" height="24">
+        <div class="footer-mail">
+          <input class="footer-mail__mail" type="email" name="mailfooter" placeholder="E-mail">
+          <button class="footer-mail__button button" type="submit">
+            <span class="footer-mail__button-txt">Підписатися</span>
+            <svg class="footer-mail__button-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
           </button>

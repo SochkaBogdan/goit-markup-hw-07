@@ -4,85 +4,36 @@
   padding-bottom: 94px;
 }
 
-// .team-tittle {
-//   margin-bottom: 50px;
-//   text-align: center;
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 1.16;
-//   letter-spacing: 0.03em;
-//   color: var(--main-color);
-// }
-
-.team-sub-tittle {
-  text-align: center;
-  padding-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-}
-
 .team-list {
   display: flex;
   gap: 30px;
-}
-
-.team-list-item {
-  display: block;
-  background-color: var(--secondary-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-text {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.team-work {
-  text-align: center;
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-}
-
-.team-social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.team-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  transition: var(--main-anim);
-}
-
-.team-link:hover,
-.team-link:focus {
-  background: var(--accent-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.team-icons {
-  fill: #AFB1B8;
-
-  transition: var(--main-anim);
-}
-
-.team-link:hover .team-icons,
-.team-link:focus .team-icons {
-  fill: var(--secondary-color);
-
+  &__card {
+    display: block;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &__box {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &__sub-tittle {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+  }
+  &__work {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+  }
 }

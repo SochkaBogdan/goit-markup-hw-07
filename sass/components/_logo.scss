@@ -12,6 +12,12 @@
   color: var(--accent-color);
 }
 
-.logo__header {
+.logo__header--position {
   margin-right: 91px;
+}
+
+.logo--footer{
+  display: block;
+  padding-bottom: 20px;
+  color: var(--secondary-color);
 }
