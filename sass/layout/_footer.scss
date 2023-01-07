@@ -16,7 +16,8 @@
     margin-bottom: 9px;
     cursor: pointer;
     transition: var(--main-anim);
-    &:hover {
+    &:hover,
+    &:focus {
       color: var(--accent-color);
     }
   }
@@ -30,7 +31,8 @@
     color: rgba(255, 255, 255, 0.6);
     transition: var(--main-anim);
     -webkit-transition: var(--main-anim);
-    &:hover {
+    &:hover,
+    &:focus {
       color: var(--accent-color);
     }
   }
@@ -41,6 +43,9 @@
 .footer-nav {
   display: flex;
   align-items: baseline;
+  &__address-position {
+    flex-direction: column;
+  }
 }
 .footer-tittle {
   font-weight: 700;
@@ -102,6 +107,6 @@
     margin-right: 10px;
   }
   &__button-icon {
-  fill: var(--secondary-color);
-}
+    fill: var(--secondary-color);
+  }
 }
